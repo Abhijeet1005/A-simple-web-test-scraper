@@ -5,9 +5,9 @@ import puppeteer from 'puppeteer';
   const browser = await puppeteer.launch({headless:true}); //make headless false to see the browser GUI (and also comment the browser.close() line at the end otherwise it will auto close)
   const page = await browser.newPage();
 
-
-  let searchTerm = 'mouse'
-  await page.goto(`https://mdcomputers.in/index.php?search=${searchTerm}&submit_search=&route=product%2Fsearch`,);
+ 
+  let searchTerm = 'mouse' //The product search string
+  await page.goto(`https://mdcomputers.in/index.php?search=${searchTerm}&submit_search=&route=product%2Fsearch`,); //Change this link to scrape a different page
 
 
   await page.setViewport({width: 1920, height: 1080});
