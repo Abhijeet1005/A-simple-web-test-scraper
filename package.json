@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node index.js" 
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper"
+  ],
+  "type": "module",
+  "author": "github @Abhijeet1005",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.1.0"
+  }
+}
